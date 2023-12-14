@@ -1,0 +1,36 @@
+.credits {
+    width: 100%;
+    margin-top: 50px;
+    border-top: 1px solid rgba(245, 245, 245, 0.2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .creditsText {
+    color: rgba(245, 245, 245, 0.2);
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+
+  .quote {
+    color: #f5f5f5;
+    text-align: center;
+    max-width: 600px;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 400;
+  }
+  
+  .iconContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    /* border: 1px solid red; */
+    width: 700px;
+    align-items: center;
+  }

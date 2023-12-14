@@ -1,0 +1,45 @@
+<div class="hero">
+  <div class="heroInner">
+    <div class="titleContainer">
+      <p class="subtitle">fanta&apos;s list</p>
+      <h2 class="title">The list of all retired legends</h2>
+    </div>
+    <div class="imageContainer">
+      <div [ngSwitch]="imageState">
+        <img
+          *ngSwitchCase="1"
+          class="image"
+          src="../../../assets/images/florianalbert.jpg"
+          alt="florian albert image"
+        />
+
+        <img
+          *ngSwitchCase="2"
+          class="image"
+          src="../../../assets/images/keegan.jpg"
+          alt="keegan image"
+        />
+
+        <img
+          *ngSwitchCase="3"
+          class="image"
+          src="../../../assets/images/gullit.jpg"
+          alt="gullit image"
+        />
+      </div>
+
+      <div
+        (click)="setImageState(1)"
+        [ngClass]="checkImageActive(1) ? 'activeCircle' : 'circle'"
+      ></div>
+      <div
+        (click)="setImageState(2)"
+        [ngClass]="checkImageActive(2) ? 'activeCircle' : 'circle'"
+      ></div>
+      <div
+        (click)="setImageState(3)"
+        [ngClass]="checkImageActive(3) ? 'activeCircle' : 'circle'"
+      ></div>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,21 @@
+.latest {
+    /* display: flex;
+    padding: 50px 20px;
+    gap: 50px; */
+    background: linear-gradient(
+      90deg,
+      #f5f5f5 0%,
+      rgba(247, 242, 237, 0.8) 15.79%,
+      #f8f0e5 44.79%,
+      #d9d9d9 79.69%,
+      rgba(152, 152, 152, 0.7) 98.96%
+    );
+  }
+  
+  .latestInner {
+    margin: 0 auto;
+    max-width: 1500px;
+    display: flex;
+    padding: 130px 100px;
+    gap: 50px;
+  }

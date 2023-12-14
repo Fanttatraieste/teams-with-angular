@@ -1,0 +1,10 @@
+<app-icons-hero></app-icons-hero>
+<app-icon-form (newQueryEvent)="queryIcons($event)"></app-icon-form>
+<app-page-number
+  (changePaginationEvent)="paginationEvent($event)"
+></app-page-number>
+<app-fantas-list [icons]="iconList" [formInputs]="formInputs"></app-fantas-list>
+<app-page-number
+  (changePaginationEvent)="paginationEvent($event)"
+  [formInputs]="formInputs"
+></app-page-number>

@@ -1,0 +1,22 @@
+.navigation {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.navLink {
+  text-decoration: none;
+  color: rgba(245, 245, 245, 0.6);
+  text-transform: uppercase;
+  font-family: "Life Savers";
+  cursor: pointer;
+}
+
+.navLink:hover {
+  color: #f5f5f5;
+}
+
+.navigation a:global(.active) {
+  color: #f5f5f5;
+}

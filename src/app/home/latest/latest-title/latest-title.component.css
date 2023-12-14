@@ -1,0 +1,59 @@
+.latestTitleSection {
+    display: flex;
+    flex-direction: column;
+    padding-left: 50px;
+    gap: 10px;
+  }
+  
+  .title {
+    font-size: 32px;
+    font-family: "Life Savers";
+    margin: 0;
+  }
+  
+  .subtitle {
+    font-size: 18px;
+    max-width: 350px;
+    font-family: "Montserrat";
+  }
+  
+  .viewButton {
+    text-decoration: none;
+    margin-top: auto;
+    background-color: transparent;
+    outline: none;
+    border: 1px solid #272829;
+    font-family: "Montserrat";
+    color: #272829;
+    padding: 15px;
+    font-size: 20px;
+    cursor: pointer;
+    width: auto;
+    display: inline-flex;
+    gap: 40px;
+    align-items: center;
+    position: relative;
+    width: fit-content;
+    border-radius: 3px;
+    transition: all 500ms;
+  }
+  
+  .viewButton:hover {
+    background-color: #272829;
+    color: #f5f5f5;
+  }
+  
+  .viewIcon {
+    width: 30px;
+    height: 30px;
+    fill: none;
+  }
+  
+  .viewIcon path {
+    stroke: #272829;
+  }
+  
+  .viewButton:hover .viewIcon path {
+    stroke: #f5f5f5;
+  }
+  
